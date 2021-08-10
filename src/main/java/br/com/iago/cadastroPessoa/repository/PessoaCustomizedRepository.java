@@ -6,5 +6,5 @@ import br.com.iago.cadastroPessoa.model.page.Paginated;
 
 public interface PessoaCustomizedRepository {
 
-	public Paginated<Pessoa> getAllPageableByFilter(PessoaDTO pessoaDTO, Paginated<Pessoa> paginated);
+	Paginated<Pessoa> getAllPageableByFilter(PessoaDTO pessoaDTO, Paginated<Pessoa> paginated);
 }

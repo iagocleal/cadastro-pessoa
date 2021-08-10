@@ -1,6 +1,5 @@
 package br.com.iago.cadastroPessoa.config;
 
-import java.util.Collections;
 import java.util.function.Predicate;
 
 import org.springframework.context.annotation.Bean;

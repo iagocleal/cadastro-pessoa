@@ -17,7 +17,7 @@ import br.com.iago.cadastroPessoa.model.page.Paginated;
 public class PessoaCustomizedRepositoryImpl implements PessoaCustomizedRepository {
 
 	@Autowired
-	public EntityManager entityManager;
+	private EntityManager entityManager;
 	
 	@Override
 	public Paginated<Pessoa> getAllPageableByFilter(PessoaDTO pessoaDTO, Paginated<Pessoa> paginated) {
